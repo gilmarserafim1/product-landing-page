@@ -1,0 +1,96 @@
+#main {
+    width: 100%;
+    padding: 8rem 3rem 0;
+}
+
+section {
+    margin-bottom: 5rem;
+    width: 100%;
+}
+
+#enter-email h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#enter-email #email {
+    display: block;
+    margin: 0 auto 1rem;
+    font-size: .75rem;
+    padding: .5rem 2rem;
+    
+}
+
+#enter-email #submit {
+    display: block;
+    margin: 0 auto;
+    padding: .5rem 2rem;
+    background-color: #F1C40F;
+    border: 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#features .feature {
+    margin: 0 3rem 2rem;
+    justify-content: left;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#features .feature:last-of-type {
+    margin-bottom: 0;
+}
+
+#features .feature img {
+    width: 50px;
+    height: 50px;
+    margin: auto 3rem auto 0;
+}
+
+#features .feature div {
+    display: flex;
+    flex-direction: column;
+}
+
+#how-it-works iframe {
+    width: 600px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+#pricing {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.item {
+    border: 1px solid black;
+    text-align: center;
+    margin: 0 1rem;
+}
+
+.item h3 {
+    background-color: #DDDDDD;
+    padding: 1rem 2rem;
+}
+
+.item h4 {
+    margin: 1rem 2rem;
+}
+
+.item p {
+    margin: .5rem 2rem;
+}
+
+.item button {
+    padding: .5rem 2rem;
+    background-color: #F1C40F;
+    border: 0;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+}
